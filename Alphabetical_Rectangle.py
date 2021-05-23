@@ -4,6 +4,5 @@ def main(n):
     for i in S:
         print(*list(map(str, [i for j in range(5)])))
 
-
 n = int(input())
 main(n)
